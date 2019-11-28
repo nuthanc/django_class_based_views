@@ -1,7 +1,10 @@
 from django.shortcuts import render
-from django.views.generic import View
-from django.http import HttpResponse
+from django.views.generic import View,TemplateView,ListView,DetailView
+from . import models
 # Create your views here.
-class CBView(View):
-    def get(self,request):
-        return HttpResponse("Class based views are cool")
+class SchoolListView(ListView):
+    model = models.School
+
+class SchoolDetailedView(DetailView):
+    model = models.School
+    template_name = 'basic_app/school_detail.html'
