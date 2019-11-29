@@ -16,3 +16,8 @@
 * Create superuser using python manage.py createsuperuser
 
 ### New template paradigm
+* school_list in school_detail.html is coming from views.py SchoolListView. 
+* The ListView is creating from the model School. 
+* The context dictionary created is of the form modelname_list
+* Custom context dictionary in ListView is done by giving the attribute context_object_name your value.
+* For e.g., context_object_name = 'schools'
