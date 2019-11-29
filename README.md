@@ -21,3 +21,4 @@
 * The context dictionary created is of the form modelname_list
 * Custom context dictionary in ListView is done by giving the attribute context_object_name your value.
 * For e.g., context_object_name = 'schools'
+* Advantage of using this new templates, no need to call Objects.get for models
