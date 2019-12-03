@@ -29,3 +29,8 @@
 
 * re_path is used for regular expression patterns
 * Video 161 time -2:40 explaining that bizarre pk in urls.py file
+* It's basically taking the school_id as primary key and passing it to urls.py file to render that school's view
+
+### CreateView
+* Deliberately leaving out the fields attribute to see in Django debug mode in the website
+* Also template is not given at first

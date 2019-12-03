@@ -5,5 +5,6 @@ app_name = 'basic_app'
 
 urlpatterns = [
     path('', views.SchoolListView.as_view(), name='list'),
-    re_path(r'^(?P<pk>[-\w]+)/$', views.SchoolDetailedView.as_view(), name='detail')
+    re_path(r'^(?P<pk>\d+)/$', views.SchoolDetailedView.as_view(), name='detail'),
+    path('create/', views.SchoolCreateView.as_view(), name='create')
 ]

@@ -1,5 +1,8 @@
 from django.shortcuts import render
-from django.views.generic import View,TemplateView,ListView,DetailView
+from django.views.generic import (View,TemplateView,
+                                ListView,DetailView,
+                                CreateView, DeleteView,
+                                UpdateView)
 from . import models
 # Create your views here.
 class IndexView(TemplateView):
@@ -13,3 +16,7 @@ class SchoolDetailedView(DetailView):
     context_object_name = 'school_detail'
     model = models.School
     template_name = 'basic_app/school_detail.html'
+
+
+class SchoolCreateView(CreateView):
+    model = models.School
