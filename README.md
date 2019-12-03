@@ -24,3 +24,8 @@
 * Advantage of using this new templates, no need to call Objects.get for models
 * Update urls.py file of basic_app with the SchoolListView
 
+### Where does .students come from in school_detail.html's for loop
+* It is the related_name in Student model in models.py 
+
+* re_path is used for regular expression patterns
+* Video 161 time -2:40 explaining that bizarre pk in urls.py file
