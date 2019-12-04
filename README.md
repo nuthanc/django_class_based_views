@@ -36,3 +36,8 @@
 * Also template is not given at first
 * CreateView creates a default html template and for School model within SchoolCreateView, it's creating school_form.html
 * form.instance.pk conditional in school_form is checking if an instance of the primary key exists or not
+
+### ImproperlyConfigured at /basic_app/create/
+* Working on this error
+* No URL to redirect to.  Either provide a url or define a get_absolute_url method on the Model.
+* import reverse to redirect to what pk of school to be created with
