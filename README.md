@@ -41,3 +41,8 @@
 * Working on this error
 * No URL to redirect to.  Either provide a url or define a get_absolute_url method on the Model.
 * import reverse to redirect to what pk of school to be created with
+
+### UpdateView
+* Create class in views.py
+* Update urls.py
+* Update the template file that relates to school detail
