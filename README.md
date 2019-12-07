@@ -46,3 +46,9 @@
 * Create class in views.py
 * Update urls.py
 * Update the template file that relates to school detail
+
+### DeleteView
+* Create class in views.py
+* Slightly different from what we have done so far for create and update
+* Update urls.py
+* Create the template file for delete
